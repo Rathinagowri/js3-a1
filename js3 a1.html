@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function car(ma, mo, ye){
+    this.make = ma;
+    this.model = mo;
+    this.year = ye;   
+}
+
+var Fiat = new car("Italy","Fiat 4 HP",1900);
+var MercedesBenz  = new car("Germany","SLS AMG",2015);
+
+alert( "Fiat make:" + Fiat.make + ','+"Fiat model:" + Fiat.model+','+"year:" + Fiat.year)
+alert("MercedesBenz make:" + MercedesBenz.make + ','+"MercedesBenz model:" + MercedesBenz.model+','+"year:" + MercedesBenz.year)
+
+</script>
+
+</body>
+</html>
